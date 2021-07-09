@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FrontEnd-Challenge</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <!--logo section start -->
+        <section class="logo-s">
+            <div class="logo">
+                <div class="logo-img">
+                    <img src="./img/Logo@2x.png" alt="logo">
+                </div>
+                <div class="icons">
+                    <a href="#">
+                        <img src="./img/icn_search@2x.png" alt="search-icon">
+                    </a>
+                    <a href="#">
+                        <img src="./img/icn_person@2x.png" alt="person-icon">
+                    </a>
+                </div>
+            </div>
+            <div class="loading">
+                <img src="./img/loading_spinner.gif" alt="">
+                <h2>Please wait a moment...</h2>
+            </div>
+        </section>
+        <!--logo section end -->
+        <div class="result-search-wrap">
+            <!--results section start -->
+            <section class="results">
+                <div class="result-card">
+                    <h1><span id="number">1</span>Results</h1>
+                    <p>Look at the result below to see the details of the person you’ve searched for.</p>
+                </div>
+                <div id="card" class="clearfix">
+                    <div class="name-wrap">
+                        <div class="name-person-icon">
+                            <img src="./img/icn_person@2x.png" alt="">
+                        </div>
+                        <div class="name">
+                            <h1>John Smith</h1>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                et dolore magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="info-wrap">
+                        <div class="addres-email">
+                            <div class="addres">
+                                <h2>Address</h2>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                                    et dolore magna
+                                    aliqua.</p>
+                            </div>
+                            <div class="email">
+                                <h2>Email</h2>
+                                <p>loremipsum@dolorsit.com</p>
+                            </div>
+                        </div>
+                        <div class="phone-relatives">
+                            <div class="phone-num">
+                                <h2>Phone Numbers</h2>
+                                <p>&#40;555&#41; 555-5555</p>
+                                <p>&#40;555&#41; 555-5555</p>
+                                <p>&#40;555&#41; 555-5555</p>
+                            </div>
+                            <div class="relatives">
+                                <h2>Relatives</h2>
+                                <p>Jane Smith</p>
+                                <p>Jane Smith Jr</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--results section end -->
+            
+            <!--search section start -->
+            <section class="search clearfix">
+                <div class="title">
+                    <h1>Start Your Search!</h1>
+                    <p>Look up for people’s name, photos and online profiles with their email address or phone number. See what you find!</p>
+                    <h2>Try Again <span>- Make a new search</span></h2>
+                </div>
+                <div class="search-btns">
+                    <div class="type-of-search">
+                        TYPE OF SEARCH:
+                    </div>
+                    <button class="input-btns active" id="email-btn">EMAIL ADDRESS</button>
+                    <button class="input-btns" id="phone-btn">PHONE NUMBER</button>
+                </div>
+                <div class="search-input-btn">
+                    <div class="input-email-wrap">
+                        <input type="email" id="input-email" placeholder="Enter An Email Address">
+                        <p>Please enter a valid email address</p>
+                    </div>
+                    <div class="input-phone-wrap">
+                    <input type="tel" id="input-phone" placeholder="Enter A Phone Number" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" required>
+                    <p>Please enter a valid phone number</p>
+                    </div>
+                    <button id="search-button">GO!</button>
+                </div>
+                <div class="wont-be-notified">
+                    <img src="./img/lock@2x.png" alt="lock">
+                    <p>People in the search won't be notified.</p>
+                </div>
+            </section>
+            <!--search section end -->
+        </div>
+    </header>
+    <main>
+        <section class="how-it-works">
+            <div class="how-it-works-title-wrap">
+                <h1>Here’s How It Works</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div>
+            <div class="numbers">
+                <div class="num-1-2-3">
+                    <div class="num-text">
+                        <div class="num">1</div>
+                        <div class="text">
+                            <h3>Lorem lpsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="num-text">
+                        <div class="num">2</div>
+                        <div class="text">
+                            <h3>Lorem lpsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="num-text">
+                        <div class="num">3</div>
+                        <div class="text">
+                            <h3>Lorem lpsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="num-4-5-6">
+                    <div class="num-text">
+                        <div class="num">4</div>
+                        <div class="text">
+                            <h3>Lorem lpsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="num-text">
+                        <div class="num">5</div>
+                        <div class="text">
+                            <h3>Lorem lpsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                    <div class="num-text">
+                        <div class="num">6</div>
+                        <div class="text">
+                            <h3>Lorem lpsum</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna
+                                aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="footer">
+            <div class="f-text">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna
+                aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat.
+            </div>
+            <div class="term-priv">
+                <a href="#">Terms</a>
+                <span>|</span>
+                <a href="#">Privacy</a>
+            </div>
+        </section>
+    </footer>
+
+
+
+    <script src="./script.js" type="module"></script>
+
+</body>
+
+</html>
